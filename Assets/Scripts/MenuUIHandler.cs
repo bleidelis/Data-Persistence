@@ -8,9 +8,8 @@ using TMPro;
 
 public class MenuUIHandler : MonoBehaviour
 {
-    //This is the handler of the main menu scene
-
-    public TMP_Text PlayerNameInput;
+    
+    public TMP_Text PlayerNameInput; //For storing the player's name
 
     public void StartGame()
     {
