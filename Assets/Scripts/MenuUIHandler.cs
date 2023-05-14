@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement; //for Play Button
 using UnityEngine.UI;
+using TMPro;
 
 public class MenuUIHandler : MonoBehaviour
 {
+    //This is the handler of the main menu scene
 
-    [SerializeField] Text PlayerNameInput;
+    public TMP_Text PlayerNameInput;
 
     public void StartGame()
     {
